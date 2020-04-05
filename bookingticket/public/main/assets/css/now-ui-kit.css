@@ -7321,5 +7321,39 @@ img {
     margin-top: -330px;
   }
 }
-
+a:hover{
+    text-decoration: none;
+}
+.breadcrumbs{
+    /*background-color: #f1f0e5;*/
+    border-bottom: 1px solid #cacac0;
+    padding: 5px 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden
+}
+.breadcrumbs ul{
+    margin: 0px auto;
+    width: 980px;
+    float: none;
+}
+.breadcrumbs li{
+    float: left;
+}
+ul, ol, li{
+    list-style: none;
+}
+ol, ul{
+    padding: 0;
+}
+.hot-rank{
+    right: -27px;
+    top: -18px;
+    height: 65px;
+    width: 50px;
+    /*background: url('../img/pngtree-red-label-png-image_3316321.jpg');*/
+    position: absolute;
+    z-index: 20;
+    /*background-color: red;*/
+}
 /*# sourceMappingURL=kit-free.css.map */
